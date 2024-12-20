@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/008e8d7b-b457-455c-bd06-79eacd94e828)### GitHub Readme (Plain Text)
+### GitHub Readme (Plain Text)
 
 # Fruit 360 Classification Project
 
