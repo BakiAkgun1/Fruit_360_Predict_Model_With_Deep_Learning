@@ -1,4 +1,4 @@
-### GitHub Readme (Plain Text)
+![image](https://github.com/user-attachments/assets/008e8d7b-b457-455c-bd06-79eacd94e828)### GitHub Readme (Plain Text)
 
 # Fruit 360 Classification Project
 
@@ -31,10 +31,10 @@ The goal of this project is to classify various fruits and vegetables using the 
 ## Dataset Structure
 The dataset is organized into the following folders:
 - **`fruits-360_dataset_100x100`**: Resized images (100x100 resolution).
-- **`fruits-360_dataset_original-size`**: Raw images in original resolution.
 - **`Training`**: Training images.
 - **`Validation`**: Validation images for hyperparameter tuning.
 - **`Test`**: Test images for evaluation.
+![image](https://github.com/user-attachments/assets/4e1ccde7-5108-4d33-a625-fe986435a649)
 
 ---
 
@@ -44,6 +44,9 @@ Steps involved in data preprocessing:
 2. **Image Resizing**: Consistent dimension (100x100) across all images.
 3. **Label Encoding**: Converting labels into numerical values.
 4. **Dataset Splitting**: Dividing into training, validation, and test sets.
+![image](https://github.com/user-attachments/assets/fadcd680-661e-4068-9c69-4acc3f53c5ac)
+![image](https://github.com/user-attachments/assets/f049faf1-0fd8-455f-8599-ee61885b2961)
+![image](https://github.com/user-attachments/assets/9dd6ad71-32cd-4766-9448-f628d79666dc)
 
 ---
 
@@ -55,6 +58,7 @@ Implemented models:
 - **Support Vector Machine (SVM)**: RBF kernel with hyperparameter tuning using GridSearchCV.
 - **XGBoost**: Random state = 42.
 - **LightGBM**: Random state = 42.
+![image](https://github.com/user-attachments/assets/4bb1ba38-0dd1-49c5-9cf8-2488c5f3874c)
 
 ### Artificial Neural Network (ANN)
 Architecture:
@@ -65,6 +69,7 @@ Architecture:
 - Loss Function: Categorical Crossentropy  
 - Regularization: Dropout and L2 weight regularization.  
 - Epochs: 50, Batch Size: 64  
+![image](https://github.com/user-attachments/assets/4b54d8f0-ad96-4e33-ab6c-cc4c58279c4f)
 
 ### Convolutional Neural Network (CNN)
 Custom architecture:
@@ -75,16 +80,21 @@ Custom architecture:
 - Optimizer: Adam  
 - Loss Function: Categorical Crossentropy  
 - Epochs: 20, Batch Size: 8  
+![image](https://github.com/user-attachments/assets/8beb5075-a2fd-4176-ae92-fa4be8bdd412)
+
 
 ---
 
 ## Results and Performance
 
 ### Key Highlights
+![image](https://github.com/user-attachments/assets/ca2be453-b84c-42d5-a612-bd9a04f9a0f6)
 - **CNN** achieved the best performance with **99.9% accuracy**.
 - **PCA** significantly reduced computational complexity.
 - Among traditional models, **Random Forest** had the highest accuracy.
 - Regularization and data augmentation techniques helped mitigate overfitting in ANN and CNN.
+
+![image](https://github.com/user-attachments/assets/378816fc-3124-4da7-9d48-53c4fe265d52)
 
 ### Performance Metrics
 - Precision, Recall, F1-score, and Accuracy were calculated for each model.
