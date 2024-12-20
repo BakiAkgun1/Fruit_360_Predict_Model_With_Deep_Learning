@@ -42,7 +42,7 @@ Steps involved in data preprocessing:
 2. **Image Resizing**: Consistent dimension (100x100) across all images.
 3. **Label Encoding**: Converting labels into numerical values.
 4. **Dataset Splitting**: Dividing into training, validation, and test sets.
-![image](https://github.com/user-attachments/assets/fadcd680-661e-4068-9c69-4acc3f53c5ac)
+![image](https://github.com/user-attachments/assets/008e8d7b-b457-455c-bd06-79eacd94e828)
 ![image](https://github.com/user-attachments/assets/f049faf1-0fd8-455f-8599-ee61885b2961)
 ![image](https://github.com/user-attachments/assets/9dd6ad71-32cd-4766-9448-f628d79666dc)
 
