@@ -1,5 +1,3 @@
-### GitHub Readme (Plain Text)
-
 # Fruit 360 Classification Project
 
 This repository contains the implementation of **Detection and Classification of Fruits and Vegetables Using Machine Learning and Deep Learning** techniques based on the Fruits-360 dataset. The project compares traditional machine learning methods with deep learning architectures and achieves high classification performance.
